@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated SignUp</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container{
+        background-color: white;
+        margin-top: 1%;
+        margin-left: 521px;
+        border-radius: 10px;
+        padding: 1%;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        height: 595;
+    }
+
+    .maintext{
+        margin-bottom: 5%;
+    }
+    .text-boxes{
+        padding: 10px;
+    }
+    .textbox1,.textbox2,.textbox3,.textbox4,.textbox5{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .name,.nickname,.age,.email,.proffesion{
+        padding: 5px;
+        margin-top: 20px;
+        border: none;
+        border-bottom: 3px solid;
+        width: 250px;
+        border-color: #3385ff;
+        outline: none;
+        border-bottom: 3px solid #3385ff;
+        font-size: larger;
+        text-align: center;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+    .submit{
+        width: 150px;
+        height: 45px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+        font-family: cursive;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+        background-color: #3385ff;
+    }
+    .submit:hover{
+        width: 225px;
+    }
+    .name:hover,.nickname:hover,.email:hover,.age:hover,.proffesion:hover{
+        width: 325px;
+    }
+</style>
+<body background="shape.jpg">
+    <div class="container">
+        <br>
+        <center>
+            <h1 class="maintext">Signup</h1>
+            <div class="text-boxes">
+                <br>
+                <span class="textbox1"><input type="text" placeholder="Name" class="name"></span>
+                <br><br>
+                <span class="textbox2"><input type="text" placeholder="Nickname" class="nickname"></span>
+                <br>
+                <br>
+                <span class="textbox3"><input type="number" placeholder="Age" class="age"></span>
+                <br>
+                <br>
+                <span class="textbox4"><input type="email" placeholder="Email" class="email"></span>
+                <br>
+                <br>
+                <span class="textbox5"><input type="text" placeholder="Proffesion" class="proffesion"></span>
+                <br>
+                <br>
+                <a href="login.html"><span class="submitbutton"><input type="submit" class="submit"></span></a>
+                <br>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
